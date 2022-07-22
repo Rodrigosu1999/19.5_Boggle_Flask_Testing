@@ -1,0 +1,76 @@
+/* Styles for base.html */
+h1{
+    font-size: 4rem;
+    text-align: center;
+    margin: 0;
+}
+
+a{
+  font-size: 1.2rem;
+  color: black;
+}
+
+body{
+  background-color: cornflowerblue;
+}
+
+/* Style for the home page */
+button{
+  height: 50px;
+  width: 20%;
+  font-size: 1.5em;
+  border-radius: 7px;
+  margin-left: 40%;
+  margin-right: 40%;
+  margin-top: 50px;
+}
+
+/* Style for the top section of the game */
+h2{
+  font-size: 2rem;
+}
+
+.topDivs{
+  width: 23%;
+  margin: 0 5% 20px 5%;
+  display: inline-block;
+  text-align: center;
+}
+
+p{
+  font-size: 1.5rem;
+}
+
+/* Style for the table section of the game */
+table {
+  max-width: 100%;
+  margin: 0 25% 0 42.5%;
+}
+
+tr {
+  background-color: #eee;
+}
+
+td {
+  text-align: left;
+  padding: 0.5em 1em;
+}
+
+#guessForm{
+  padding-left: 40%;
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+
+/* Style for the bottom section of the game */
+#message, .bottomDivs{
+  display: block;
+  text-align: center;
+}
+
+
+
+
+
+
+
